@@ -1,0 +1,29 @@
+/* @import "material-color"; */
+[data-md-color-primary="akerbp"] {
+  --md-primary-fg-color: #ce0f68;
+  --md-primary-fg-color--light: #e787b4;
+  --md-primary-fg-color--dark: #ac145a;
+}
+[data-md-color-accent="akerbp"] {
+  --md-accent-fg-color: var(--md-primary-fg-color--light);
+  --md-accent-fg-color--transparent: hsla(332, 86%, 43%, 0.1);
+}
+.darkred {
+  color: darkred;
+}
+.blue {
+  color: blue;
+}
+.orange {
+  color: darkorange;
+}
+.yellow {
+  color: yellow;
+}
+.green {
+  color: green;
+}
+
+em > img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
