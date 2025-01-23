@@ -1383,7 +1383,8 @@ and then tie all Data products to the same loop. In other words, when
 there is a change in the trajectory, Petrel Studio publishes a new set
 of PPFG, OBG, CG, Shmin, UCS, FA, Picks formations, Picks faults.**
 
-<img src="./images/PPFG-19.png" style="width:6.5in;height:5.19792in" /><img src="../images/image20.png" style="width:6.5in;height:3.04167in" />
+<img src="./images/PPFG-19.png" style="width:6.5in;height:5.19792in" />
+<img src="./images/image20.png" style="width:6.5in;height:3.04167in" />
 
 ##### Alternative B: Reverse-Engineer ROCQ Connector
 
