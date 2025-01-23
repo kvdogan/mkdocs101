@@ -24,4 +24,6 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install -r ./requirements.txt
-      - run: mkdocs gh-deploy -d ./site --force
+      - run: pip install ghp-import
+      - run: mkdocs build
+      - run: ghp-import site -p -x site
